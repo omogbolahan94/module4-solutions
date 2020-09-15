@@ -62,10 +62,10 @@ WARNING!!! WARNING!!!
     // name in the loop.
     if (firstLetter === "j") {
       // byeSpeaker.xxxx
-      console.log("Good Bye " + byeSpeaker.speak(names[i]));
+      byeSpeaker.speak(names[i]);
     } else {
       // helloSpeaker.xxxx
-      console.log("Hello " + helloSpeaker.speak(names[i]));
+      helloSpeaker.speak(names[i]);
     }
   }
 })();
